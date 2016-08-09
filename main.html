@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Question tool</title>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"
+            integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="script.js"></script>
+    <style>
+        /* Move down content */
+        body {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+<div>
+    <div class="container">
+
+        <div class="jumbotron">
+            <h3>Question Tool</h3>
+            <label class="btn btn-default btn-file" id="filechoose">
+                Choose File
+                <input type="file" id="file-input" style="display: none;"/>
+            </label>
+            <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-lg btn-primary" onclick="showAnswer()" role="button">
+                        <span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span>Show Answer
+                    </button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-lg btn-success" onclick="showQuestion()" role="button">
+                        <span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>Show Question
+                    </button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-lg btn-danger" onclick="previousQuestion()" role="button">
+                        <span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>Previous Question
+                    </button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-lg btn-info" onclick="nextQuestion()" role="button">
+                        <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>Next Question
+                    </button>
+                </div>
+            </div>
+
+            <div id="file-content" class="well"></div>
+            <div id="alternatives" class="list-group">
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>

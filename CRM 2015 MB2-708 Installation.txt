@@ -1,0 +1,630 @@
+1.You are deploying Dynamics CRM 2015. You configure the following settings: • Server Profile • Incoming Email • Outgoing Email Users will not use Microsoft Dynamics CRM for Outlook. You need to identify a method to implement synchronization for appointments, contacts, and tasks. What should you use? 
+A. Forward Mailbox 
+B. Smart Matching 
+C. Server-Side Synchronization 
+D. Email Router 
+Answer: C 
+---
+2.You recently upgraded a deployment of Dynamics CRM to Dynamics CRM 2015. All client computers have the following configurations: • Windows 7 • Internet Explorer 10 • Microsoft Outlook 2007 • Microsoft .NET Framework 3.5.1 • Microsoft Dynamics CRM 2013 for Outlook You need to upgrade all of the Microsoft Dynamics CRM for Outlook installations to Dynamics CRM 2015. What should you upgrade before you install Microsoft Dynamics CRM 2015 for Outlook?
+A. Windows 7
+B. Outlook 2007 
+C. Internet Explorer 10 
+D. .NET Framework 3.5.1 
+Answer: D 
+---
+3.You have a deployment of Dynamics CRM 2015 that has 50 users. A user named User1 has Microsoft Dynamics CRM 2015 for Outlook installed. User1 plans to manage another Dynamics CRM 2015 organization from Microsoft Outlook. You need to add the second organization to Outlook. What should you do? 
+A. Run the Microsoft Dynamics CRM 2015 for Outlook Configuration Wizard.
+B. Add a Connected Service to the Office Account of User1. 
+C. Modify the URL of the Discovery Web Service server role. 
+D. Reinstall Microsoft Dynamics CRM for Outlook. 
+Answer: A 
+---
+4.You plan to deploy Dynamics CRM 2015 for a customer. The customer requires that the Email Router component be used. You need to identify to the customer which email solutions are supported by the Email Router. Which three email solutions should you identity? Each correct answer presents part of the solution. 
+A. Internet Message Access Protocol (IMAP) B. Exchange ActiveSync 
+C. A Simple Mail Transfer Protocol (SMTP) server for outgoing email 
+D. Microsoft Exchange Online 
+E. A Post Office Protocol 3 (POP3) server for incoming email 
+Answer: CDE 
+---
+5.You are using the Dynamics CRM 2013 Email Router to transfer email to a Dynamics CRM 2015 server. Users report that email is tracked, but tasks, appointments, and contacts are not tracked. You need to 
+The safer , easier way to help you pass any IT exams. 
+4 / 38 
+ensure that the tasks, appointments, and contacts are tracked. What should you do? 
+A. Modify the file system permissions for the users.
+B. Deploy Microsoft Dynamics CRM 2015 for Outlook. 
+C. Upgrade the Email Router.
+D. Modify the configuration of the Email Router 
+Answer: B 
+---
+6.You have a deployment of Dynamics CRM 2015 that contains one organization. You need to create a copy of the organization within the same deployment. What should you do first? 
+A. Disable the organization. 
+B. Back up the organization database.
+C. Restore the organization database.
+D. Disable the server. 
+Answer: A 
+---
+7.Which statement correctly describes the Microsoft Dynamics CRM for Outlook client application? 
+A. The Dynamics CRM 2013 French language pack can be upgraded to the Dynamics CRM 2015 English language pack. 
+B. Microsoft Dynamics CRM 2015 for Outlook can be used in online mode when connected to Dynamics CRM 2011. 
+C. Microsoft Dynamics CRM 2015 for Outlook can be used in offline mode or online mode when connected to Dynamics CRM 2013. 
+D. Microsoft Dynamics CRM 2013 for Outlook can be used in online mode when connected to Dynamics CRM 2015. 
+Answer: B 
+---
+8.You install Microsoft Dynamics CRM for Outlook on 50 client computers. You need to configure Microsoft Dynamics CRM for Outlook to use the URL of https://crm.contoso.com:5555 for the Discovery Web Service. What should you do? A. Run setupclient.exe and specify the /A parameter. 
+B. Run microsoft.crm.application.outlook.configwizard.exe and specify the/xo parameter. 
+C. Run microsoftcrm.application. outlook.configwizard.exe and specify the/i parameter. 
+D. Run setupclient.exe and specify /targetdir parameter. 
+Answer: C 
+---
+9.You have a deployment of Dynamics CRM 2015. A manager at your company uses Microsoft Dynamics CRM 2015 for Outlook. The manager stores a large amount of offline data, but the new data is NOT available offline. You need to ensure that the new data added to Dynamics CRM 2015 is available to the manager offline. What should you do? 
+A. Upgrade to Microsoft SQL Server Express 2014. 
+B. Defragment the hard disk drive of the manager's computer. 
+C. Modify the Offline Synchronization Filters for Outlook. 
+D. Modify the Outlook Synchronization Filters. 
+Answer: C 
+---
+10.You need to create a relationship between email and records by using information that is stored in the email message header, such as the sender and the recipient. What should you use? 
+A. The tracking token 
+B. The Email Router 
+C. Server-side synchronization 
+D. Smart matching 
+Answer: D 
+---
+11.You have a development environment of Dynamics CRM 2015 that contains one server. Users report that they cannot access the server. You discover that the Dynamics CRM services on the server stopped. You start the services, but the users still cannot connect. You need to identify the cause of the issue. What should you identify? 
+A. Another administrator removed the server from the Dynamics CRM environment. 
+B. The Microsoft SQL Server database is corrupt. 
+C. Another administrator disabled the server. D. The Active Directory domain controllers are unavailable 
+Answer: D 
+---
+12.You have a server that has a full deployment of Dynamics CRM 2015. You need to manage the deployment by using Windows PowerShell. You open Windows PowerShell on the server. Which cmdlet should you run first? 
+A. Get-CrmOrganization 
+B. Update-CrmOrganization 
+C. Add-CrmServer 
+D. Add-PSSnapin 
+Answer: D 
+---
+13.You have a deployment of Dynamics CRM 2015. You discover that Dynamics CRM tracks a large amount of spam messages. You need to prevent Dynamics CRM from tracking all incoming email until the source of the SPAM is stopped. The solution must not prevent the tracking of outbound email. What should you do? 
+A. Click Reject Email for the mailbox of each user. 
+B. Set Incoming Email to None. 
+C. Disable the Microsoft Dynamic CRM 2015 for Outlook add-in for all users. 
+D. Stop the Email Router 
+Answer: B 
+---
+14.A user attempts to upgrade Microsoft Dynamics CRM 2013 for Outlook to Microsoft Dynamics CRM 2015 for Outlook. The user reports that the upgrade fails. You need to ensure that the user can install Microsoft Dynamics CRM 2015 for Outlook successfully. What should you do? 
+A. Uninstall Microsoft SQL Express. 
+B. Uninstall Microsoft Dynamics CRM 2013 for Outlook. 
+C. Instruct the user to run microsoft.crm.application.outlook.configwizard.exe and specify the /xa parameter. 
+D. Add the user to the local Administrators group. 
+Answer: D 
+---
+15.You need to configure email synchronization for a Dynamics CRM 2015 user. Which record should you modify? 
+A. Contact 
+B. User 
+C. Account 
+D. Mailbox 
+Answer: D 
+---
+16.A user named Admin1 recently installed Dynamics CRM 2015 on a server named Server1. You need to instruct Admin1 to prepare the installation to meet the following requirements: • Another user named Admin2 must be able to create an organization. • Five users must be able to manage data. • Only the required client access licenses (CALs) must be purchased. Which three tasks should you instruct Admin1 to do? Each correct answer presents part of the solution. 
+A. From Deployment Manager, add Admin2. B. Purchase five CALs. 
+C. From the Dynamics CRM 2015 web application, add Admin2. 
+D. From Deployment Manager, add the five users. 
+E. Purchase seven CALs. 
+F. From the Dynamics CRM 2015 web application, add the five users. 
+Answer: ABF 
+---
+17.Your company merges with another company named Contoso, Ltd. Both companies have a deployment of Dynamics CRM 2015. In the Active Directory forest of Contoso, new user accounts are created for all of the Dynamics CRM 2015 users. You need to ensure that the Dynamics CRM 2015 users at your company can continue to manage Dynamics CRM records. Which two tasks should you perform? Each correct answer presents part of the solution. 
+A. Map the Active Directory users from your domain to the new user accounts in the Active Directory domain of Contoso. 
+B. Join your company's Dynamics CRM 2015 server to the Active Directory domain of Contoso. 
+C. Deploy a new Dynamics CRM 2015 server. D. Import your company's deployment to the Dynamics CRM 2015 deployment of Contoso. E. Create a security group named CRM_migrated and move all of the Dynamics CRM 2015 users to the group. 
+Answer: BD 
+---
+18.You have a deployment of Dynamics CRM 2015 that contains a server named Server1. Server1 has the following components installed: • All of the Dynamics CRM Front End Server roles • All of the Dynamics CRM Back End Server roles • Microsoft Dynamics CRM Reporting Extensions • Microsoft SQL Server From Deployment Manager, you disable Server1. Which two components will stop? Each correct answer presents part of the solution. 
+A. The Microsoft Dynamics CRM VSS Writer service 
+B. Sandbox Processing Service 
+C. The SQL Server service 
+D. SQL Server Reporting Services (SSRS) 
+E. Email Integration Service 
+Answer: CD 
+---
+19.Which statement correctly describes data encryption in Dynamics CRM 2015? 
+A. Only unencrypted data fields can be indexed. 
+B. An X.509 certificate is required to activate data encryption. 
+C. The data in encrypted data fields cannot be updated. 
+D. Data encryption is disabled by default. 
+Answer: A 
+---
+20.Your network contains an Active Directory domain. The domain contains domain controllers that run Windows Server 2008 R2. A domain controller named DO has Active Directory Federation Service (AD FS) 1.0 installed. You have a deployment of Dynamics CRM 2015. You plan to implement an Internet-facing deployment. You need to update the domain to support the planned implementation. You must achieve the goal in the least amount of time possible. What should you do? 
+A. Install Windows Server 2012 on a new server, and then add the Active Directory Federation Services server role. 
+B. Upgrade DC1 to Windows Server 2012. 
+C. Uninstall AD FS 1.0 from DC1, and then install AD FS 2.0 on DC1. 
+D. Install AD FS 2.0 on DC1. 
+Answer: D 
+---
+21.Which data encryption technology does Dynamics CRM 2015 use to encrypt password fields in system entities? 
+A. Encrypting File System (EFS) 
+B. Data Encryption Standard (DES) 
+C. Bitlocker Drive Encryption (BitLocker) 
+D. Transparent Data Encryption (TDE) 
+Answer: D 
+---
+22.You are planning a disaster recovery strategy for a deployment of Dynamics CRM 2015. 
+Your network has Microsoft Exchange Server 2013 installed. All users have Microsoft Dynamics CRM for Outlook installed. You need to recommend a solution that provides the ability to restore access to Dynamics CRM data if a complete network failure occurs. The solution already includes full backups of all Microsoft SQL Server databases. What other technology should you recommend including in the disaster recovery solution? 
+A. The system state of the SQL servers 
+B. Microsoft SharePoint Server 2013 
+C. The system state of a domain controller 
+D. Exchange Server 2013 
+Answer: C 
+---
+23.You have a deployment of Dynamics CRM 2015 that contains one server. Active Directory Federation Services (AD FS) is installed on a different server. You implement an Internet-facing deployment by using the default configurations and ports. You have an organization named CRM in a domain named contoso.com. You need to identify which URL users must use to access the Dynamics CRM deployment from the Internet. Which URL should you identify? 
+A. http://crm.contoso.com/default.aspx 
+B. https://crm.contoso.com/main.aspx 
+C. http://crm.contoso.com:443 
+D. https://contoso.crm.dynamics.com/main.aspx 
+E. http://crm.contoso.com/main.aspx 
+Answer: B 
+---
+24.You have a deployment of Dynamics CRM 2015 that contains four servers. The servers are configured as shown in the following table. 
+You need to ensure that workflows continue to execute if a single server fails. Which two tasks should you perform? Each correct answer presents part of the solution. 
+A. Add another Front End Server and implement Failover Clustering. 
+B. Add another SQL Server and implement Failover Clustering. 
+C. Add another Front End Server and implement Network Load Balancing (NLB). D. Add another Back End Server. 
+E. Add another Deployment Administration Server and implement Network Load Balancing (NLB). 
+Answer: BC 
+---
+25.You have a Dynamics CRM 2015 server. You install Active Directory Federation Services (AD FS) on a different server. You are implementing an Internet-facing deployment for Dynamics CRM 2015. You need to ensure that users can access the deployment from the Internet to meet the following requirements: • The connection to the Dynamics CRM server must be encrypted. • Users must not be required to enter a port number when connecting to the Dynamics CRM server. What should you configure? 
+A. An HTTPS binding on port 5555 on the Dynamics CRM server 
+B. An HTTPS binding on port 5555 on the AD FS server 
+C. An HTTPS binding on port 443 on the AD FS server 
+D. An HTTPS binding on port 443 on the Dynamics CRM server 
+Answer: D 
+---
+26.You are planning the deployment of Microsoft SQL Server for a deployment of Dynamics CRM 2015. The planned deployment will contain a standby copy of the SQL databases in a remote data center. You need to recommend a solution for keeping the standby databases up-to-date. What should you recommend? 
+A. Database mirroring 
+B. AlwaysOn Availability Groups 
+C. File Replication Service (FRS) 
+D. Transaction log shipping 
+Answer: D 
+---
+27.Which statement correctly describes the backup and restore capabilities of Microsoft System Center 2012 for Dynamics CRM 2015? 
+A. System Center 2012 can use the VSS writer to back up the Microsoft SharePoint Server 2013 databases used by Dynamics CRM 2015. B. System Center 2012 can provide automatic failover of the Dynamics CRM 2015 databases. 
+C. System Center 2012 can be used to perform granular restores of individual objects in Dynamics CRM 2015. 
+D. System Center 2012 can be used to back up the databases used by Dynamics CRM 2015 while users are connected to the organization. 
+Answer: D 
+---
+28.You are planning a deployment of Dynamics CRM 2015. You estimate that the Dynamics CRM databases contain more than 500 GB of data. You need to recommend a solution to minimize the size of the databases. What are three possible recommendations to achieve this goal? Each correct answer presents a complete solution. A. Microsoft SQL Server page compression 
+B. RAID-10 disk arrays 
+C. NTFS compression 
+D. Sparse columns 
+E. Microsoft SQL Server row compression 
+Answer: ACE 
+---
+29.You have a deployment of Dynamics CRM 2015 that contains one server. You need to make the deployment available to users on the Internet. Which action should you perform first from Deployment Manager? 
+A. Run the Internet-Facing Deployment Configuration Wizard. 
+B. Configure the Incoming Email setting. 
+C. Disable the server. 
+D. Run the Configure Claims-Based Authentication Wizard. 
+Answer: D 
+---
+30.You have a deployment of Dynamics CRM 2015. You complete the Internet-Facing Deployment Configuration Wizard. You need to ensure to that users on the Internet can access the deployment. What should you create? 
+A. A Kerberos delegation in Active Directory B. A service connection point (SCP) in Active Directory 
+C. A zone delegation in the internal DNS zone D. A record in the external DNS zone 
+Answer: D 
+---
+31.You have a network that contains a single IP subnet. You deploy a Microsoft SQL Server cluster that contains two SQL Server servers. You launch the setup program for Dynamics CRM 2015. You need to configure Dynamics CRM 2015 to use the SQL Server cluster. What should you enter on the Select SQL Server page? 
+A. The management IP address of the SQL Server cluster 
+B. The IP address of one of the SQL Server servers 
+C. The virtual server name of the SQL Server cluster 
+D. The name of one of the SQL Server servers 
+Answer: C 
+---
+32.You have a deployment of Dynamics CRM 2015 that contains one server. The server runs Windows Server 2012 R2. You need to change the user account used to start the Dynamics CRM services in the least amount of time possible. What should you use? 
+A. Deployment Manager 
+B. Add or remove programs 
+C. Microsoft SQL Server Management Studio D. Server Manager 
+Answer: D 
+---
+33.You have a deployment of Dynamics CRM 2015 that contains four organizations. You plan to implement an Internet-facing deployment. You need to ensure that the organizations are accessible to Internet-based clients. What should you create in DNS? 
+A. Four host (A) records 
+B. Four start of authority (SOA) records 
+C. One service location (SRV) record 
+D. One canonical name (CNAME) record 
+Answer: A 
+---
+34.You have a deployment of Dynamics CRM 2015 Workgroup Server 2015. After a recent Dynamics CRM failure, users were unable to access Dynamics CRM data for several days. You need to implement a high availability solution for the deployment. What should you do first? 
+A. Modify the URL of the Discovery Web Service server role. 
+B. Configure Windows Server Failover Clustering. 
+C. Modify the product key of Dynamics CRM 2015. 
+D. Configure Network Load Balancing (NLB). 
+Answer: D 
+---
+35.You plan to deploy Dynamics CRM 2015 to five internal users on the network and to five external users. Only the internal users will create workflows. All of the users will use Microsoft Dynamics CRM for Outlook. You need to recommend which licenses must be purchased for the planned deployment. The solution must minimize costs. What should you recommend? 
+A. One license for Dynamics CRM Workgroup Server 2015, five Basic client access licenses (CALs), and one External Connector (EC) license 
+B. One license for Dynamics CRM Server 2015, five Basic client access licenses (CALs), and five Professional CALs 
+C. One license for Dynamics CRM Workgroup Server 2015, five Basic client access licenses (CALs), and five Professional CALs 
+D. One license for Dynamics CRM Server 2015, five Professional client access licenses (CALs), and one External Connector (EC) license 
+Answer: B 
+---
+36.You plan to install a Dynamics CRM 2015 Back End Server. You need to identify which three server roles are installed on a Back End Server. Which three roles should you identify? Each correct answer presents part of the solution. 
+A. Asynchronous Processing Service 
+B. Discovery Web Service 
+C. Organization Web Service 
+D. Email Integration Service 
+E. Sandbox Processing Service 
+F. Microsoft Dynamics CRM VSS Writer 
+Answer: ADE 
+---
+37.You install Dynamics CRM 2015 on a server on the internal network. You need to provide several users with the ability to use Dynamics CRM client applications to connect to Dynamics CRM from the Internet Which server role should you add to the deployment? 
+A. Active Directory Lightweight Directory Services 
+B. Web Server (IIS) 
+C. Remote Access 
+D. Active Directory Federation Services 
+Answer: B 
+---
+38.You plan to install Dynamics CRM 2015 on a server named Server1. You need to identify which technologies will be installed automatically by the Dynamics CRM 2015 setup program. Which two technologies should you identify? Each correct answer presents part of the solution. 
+A. Microsoft SQL Server Reporting Services (SSRS) 
+B. The Dynamics CRM Email Router 
+C. Microsoft Dynamics CRM for Outlook 
+D. Microsoft .NET Framework 
+E. The Web Server (IIS) server role 
+Answer: A, D 
+---
+39.You are writing a custom report in Dynamics CRM 2015. You need to ensure that the report only displays data to which a user has permission. What should you use? 
+A. Filtered views 
+B. FetchXML queries 
+C. A Microsoft SQL Server stored procedure D. Condition statements in SQL queries 
+Answer: B 
+---
+40.You upgrade Dynamics CRM 2013 to Dynamics CRM 2015. You need to check whether Dynamics CRM 2015 operates correctly after the upgrade. Which two tasks should you perform? Each correct answer presents part of the solution. 
+A. Review the Dynamics CRM audit history. B. Connect to Dynamics CRM 2015 by using the web client. 
+C. Review the Event Viewer logs for errors. 
+D. Review the Dynamics CRM trace logs for errors. 
+Answer: CD 
+---
+41.You plan to migrate a deployment of Dynamics CRM 2011 to Dynamics CRM 2015. Your network contains the following: • Active Directory Domain Services (AD DS) installed on domain controllers that run the 32-bit version of Windows Server 2008 • Microsoft SharePoint Server 2010 installed on a server that runs Windows Server 2008 R2 • Microsoft Exchange Server 2010 installed on a server that runs Windows Server 2012 • Microsoft Office 2007 and Internet Explorer 9 installed on client computers You need to identify which components must be upgraded to support the planned migration to Dynamics CRM 2015. Which two component should you identify? Each correct answer presents part of the solution. 
+A. Office 2007 on the client computers 
+B. Exchange Server 2010 
+C. Internet Explorer 9 on the client computers 
+D. SharePoint Server 2010 
+E. Windows Server 2008 on the domain controllers 
+Answer: AC 
+---
+42.You are responsible for a large global deployment of Dynamics CRM 2015 for users located in France and the United States. All of the users have client computers that run Windows 8.1 and have Microsoft Dynamics CRM 2013 for Outlook installed. The base language is English. You plan to upgrade Microsoft Dynamics CRM 2013 for Outlook to the most recent version. The users in France request that their base language be French. You successfully upgrade Microsoft Dynamics CRM for Outlook for the users in the United States. The upgrade for the users in France fails. You need to identify the cause of the upgrade failure. What should you identify? 
+A. You can upgrade the client only if the base languages match. 
+B. You failed to install the French language pack for Windows before you started the upgrade. 
+C. You failed to install the French language pack on the server. 
+D. You failed to set the base language on the server to French. 
+Answer: A 
+---
+43.You install Dynamics CRM Workgroup Server 2015 on a server named Server1. You need to upgrade Server1 to Dynamics CRM Server 2015 as quickly as possible. What should you do? 
+A. Install Microsoft SQL Server 2012 R2 on another server on the network, and then install Dynamics CRM Server 2015 on the new server. 
+B. From Server1, uninstall Dynamics CRM Workgroup Server 2015, and then install Dynamics CRM Server 2015. 
+C. Install Dynamics CRM Server 2015 on a new server, and then run the Microsoft SQL Server Migration Assistant (SSMA). 
+D. From Server1, enter a new product key in Deployment Manager. 
+Answer: D 
+---
+44.You have a deployment of Dynamics CRM 2015. Dynamics CRM and Microsoft SQL Server 2014 are installed on the same server. The Microsoft Dynamics CRM 2015 Reporting Extensions are not installed. You need to identify which action can be performed. Which action should you identify? A. Run the default reports. 
+B. Run a custom SQL-based report. 
+C. Upload fetch-based reports. 
+D. Schedule SQL-based reports to run. 
+Answer: A 
+---
+45.Which Dynamics CRM 2015 server role provides access to content from Microsoft Dynamics CRM for Outlook? 
+A. Web Application Server 
+B. Email Integration Service 
+C. Organization Web Service 
+D. Discovery Web Service 
+Answer: D 
+---
+46.Your network contains a server named SQL1 that runs Microsoft SQL Server 2012 R2. You plan to install Dynamics CRM 2015 on a server named Server1. You need to identify which task must be performed before you install Dynamics CRM. Which task should you identify? 
+A. Server1 to the IP subnet that contains SQL1. 
+B. Join Server1 to the Active Directory domain that contains SQL1. 
+C. On SQL1, create a named instance. 
+D. On SQL1, enable SQL Server authentication. 
+Answer: B 
+---
+47.You deploy Dynamics CRM 2015. You need to add sample data to the deployment. What are two possible ways to achieve this goal? Each correct answer presents a complete solution. 
+A. From Microsoft Dynamics CRM for Outlook, modify the Data Management settings. 
+B. Modify the Data Management settings from the Dynamics CRM web application. 
+C. From Microsoft SQL Server Management Studio, modify the properties of the organization database. 
+D. Enable server-based SharePoint integration, and then create a document library from the Microsoft SharePoint Server 2013 Admin Center. 
+E. Enable server-based SharePoint integration, and then create a team site from the Microsoft SharePoint Server 2013 Admin Center. 
+Answer: AB 
+---
+48.You have a deployment of Dynamics CRM 2015. Your network contains the client computers configured as shown in the following table. 
+You need to create custom reports by using the Microsoft Dynamics CRM Report Authoring Extension. On which computer should you install the extensions? 
+A. Computer1 
+B. Computer2 
+C. Computer3 
+D. Computer4 
+Answer: D 
+---
+49.You have a Dynamics CRM 2013 Email Router. You plan to upgrade the Email Router to Dynamics CRM 2015. You need to back up the state files for the Email Router before you perform the upgrade. Where can you locate the state files? 
+A. %ProgramFiles%\Microsoft Dynamics CRM\ 
+B. %ProgramFiles%\Microsoft Dynamics CRM\Setup 
+C. %ProgramFiles%\Microsoft CRM Email Router 
+D. %ProgramFiles%\Microsoft CRM Email Router\Tools 
+E. %ProgramFiles%\Microsoft CRM Email\Service 
+Answer: E 
+---
+50.You are planning several deployments of Dynamics CRM 2015 that will use Microsoft SQL Server Reporting Services (SSRS). Which two statements accurately describe SSRS for Dynamics CRM 2015? Each correct answer presents part of the solution. 
+A. The Microsoft Dynamics CRM 2015 Reporting Extensions can be linked to only one instance of SSRS. 
+B. Each organization within a deployment of Dynamics CRM 2015 will use the same SSRS instance. 
+C. The Microsoft Dynamics CRM 2015 Reporting Extensions are available only for deployments that use SQL Server 2014. 
+D. SQL-based reports can be scheduled in Dynamics CRM 2015 without installing the Microsoft Dynamics CRM 2015 Reporting Extensions. 
+Answer: A, B 
+---
+51.You have a server named Server1 that has Microsoft SQL Server 2012 R2 installed. A domain user named Admin1 plans to install Dynamics CRM 2015 on Server1. All of the security groups used by Dynamics CRM are pre-created in an organizational unit (OU) named CRM.GROUPS. You need to assign the minimum number of permissions to Admin1. Which two roles or group memberships should you assign to Admin1? Each correct answer presents part of the solution. 
+A. The local Administrators group on Server1 B. The Domain Admins domain security group 
+C. The Account Operators domain security group 
+D. The local Power Users group on Server1 
+E. The SQL Server sysadmin role 
+Answer: AE 
+---
+52.Your company has a deployment of Dynamics CRM 2015. Some users plan to use Dynamics CRM data while working offline. You need to recommend which client application can be used to modify records while working offline. Which application should you recommend? 
+A. Microsoft Dynamics CRM for iPad 
+B. Microsoft Dynamics CRM for Windows 8 C. Microsoft Dynamics CRM Mobile Express D. Microsoft Dynamics CRM for Outlook 
+Answer: D 
+---
+53.You have a server that has Dynamics CRM 2013 installed. You perform an in-place upgrade of the server to Dynamics CRM Server 2015. Which actions occur during the upgrade? 
+A. The SQL extension tables merge into the base table. 
+B. The Email Router is upgraded. 
+C. All compatible Dynamics CRM 2013 mobile applications are upgraded. 
+D. Microsoft Dynamics CRM 2013 for Outlook upgrades to Microsoft Dynamics CRM 2015 for Outlook. 
+Answer: C 
+---
+54.You need to perform an in-place upgrade from Dynamics CRM 4.0 to Dynamics CRM 2015. What should you install first? 
+A. Microsoft .NET Framework 4.0 
+B. Dynamics CRM 2013 Service Pack 1 (SP1) C. Dynamics CRM 2015 
+D. Dynamics CRM 2011 
+Answer: B 
+---
+55.Your network contains three IP subnets that are configured as shown in the following table. 
+The network contains one Active Directory domain that has two domain controllers in Subnet1. Subnet2 contains a server named Server1. You start installing Dynamics CRM 2015 on Server1 and you receive the following error message: "Setup Cannot Find the Selected Organizational Unit." You run the ipconfig.exe command from Server1 and you discover the following information: • IP address: 192.168.2.211 • Subnet mask: 255.255.0.0 • DNS server: 10.0.0.100 You verify that you can access websites on the Internet from Server1. You need to resolve the issue that prevents you from installing Dynamics CRM. What should you do? 
+A. Add a domain controller to Subnet2. 
+B. Modify the IP address of Server 1. 
+C. Modify the DNS server of Server 1. 
+D. Move Server1 to Subnet1, 
+Answer: D 
+---
+56.You need to identify which type of file is used to store the definition for Dynamics CRM reports. Which file type should you identify? 
+A. RDL 
+B. VSPX 
+C. SQL 
+D. RDLX 
+Answer: A 
+---
+57.You are planning a deployment of Dynamics CRM 2015 and Microsoft SQL Server Reporting Services (SSRS). Dynamics CRM and SSRS will be installed on different servers. You need to recommend a solution to ensure that Dynamics CRM can use SSRS without requiring Kerberos double-hop authentication. What should you include in the recommendation? 
+A. Anonymous authentication mode in Microsoft Internet Information Services (OS) B. Microsoft Kerberos Configuration Manager C. Dynamics CRM 2015 Reporting Extensions D. Microsoft Dynamics CRM Report Authoring Extension 
+Answer: D 
+---
+58.You are asked to identify the benefits of performing an in-place upgrade instead of a migration that uses a new instance of Microsoft SQL Server. Which two benefits should you identify? Each correct answer presents part of the solution. 
+A. Easiest to recover if a database failure occurs 
+B. Minimizes hardware costs 
+C. Easiest to perform 
+D. Minimizes downtime 
+Answer: BC 
+---
+59.You are planning a deployment of Dynamics CRM 2015 that will contain two Dynamics CRM 2015 servers. Two hundred users will access the deployment from the internal network. Fifty users will access the deployment from client sites. All of the users will use Dynamics CRM client applications. You need to recommend the minimum number of licenses that must be purchased for the planned deployment. How many licenses should you recommend? 
+A. Two server licenses and 250 client access licenses (CALs) 
+B. One server license and 200 client access licenses (CALs) 
+C. Two server licenses and 200 client access licenses (CALs) 
+D. Two server licenses, 200 client access licenses (CALs), and one External Connector (EC) license 
+E. Two server licenses, 250 client access licenses (CALs), and one External Connector (EC) license 
+Answer: E 
+---
+60.You have a deployment of Dynamics CRM 2013 that contains four computers. The computers are configured as shown in the following table. 
+You plan to upgrade to Dynamics CRM 2015. You need to identify on which computer the operating system must be upgraded. Which computer should you identify? 
+A. CRM1 
+B. CRM2 
+C. CRM3 
+D. SQL1 
+Answer: A
+---
+61.You have an Internet-facing deployment of Dynamics CRM 2015 that contains only one server. Users report that they must add the TCP port number to the URL in the Internet Explorer address bar to access the Dynamics CRM server. You need to provide to the users a simple URL that does not contain the TCP port. What should you do? 
+A. From the Dynamics CRM server, create a host header. 
+B. From each user's computer, add the URL to the Local intranet zone. 
+C. From Active Directory, deploy a Group Policy object (GPO). 
+D. From the Dynamics CRM server, modify the port settings of the default website 
+Answer: A 
+---
+62.You have a server that has Dynamics CRM 2013 and the Microsoft Dynamics CRM Reporting Extensions installed. You plan to upgrade to Dynamics CRM 2015. You need to ensure that the server uses the Dynamics CRM 2015 version of the Microsoft Dynamics CRM Reporting Extensions. What should you do? 
+A. Uninstall the Microsoft Dynamics CRM 2013 Reporting Extensions, upgrade from Dynamics CRM 2013 to Dynamics CRM 2015, and then install the Microsoft Dynamics CRM 2015 Reporting Extensions. 
+B. Uninstall the Microsoft Dynamics CRM 2013 Reporting Extensions, install the Microsoft Dynamics CRM 2015 Reporting Extensions, and then upgrade from Dynamics CRM 2013 to Dynamics CRM 2015. 
+C. Upgrade from Dynamics CRM 2013 to Dynamics CRM 2015, and then perform an in-place upgrade of the Microsoft Dynamics CRM 2013 Reporting Extensions. 
+D. Perform an in-place upgrade of the Microsoft Dynamics CRM 2013 Reporting Extensions, and then upgrade from Dynamics CRM 2013 to Dynamics CRM 2015. 
+Answer: C 
+---
+63.You ask a technician to deploy Dynamic CRM Server 2015. Once the technician completes the deployment you discover that Dynamics CRM Workgroup Server 2015 was deployed. You need to tell the technician what to use in the future to ensure that the Server edition is deployed. What should you tell the technician to use? 
+A. A different version of Microsoft SQL Server 
+B. A different product key 
+C. A different version of Windows Server 
+D. A different version of the installer 
+Answer: B 
+---
+64.You need to identify which technologies must be deployed to the network before you deploy Dynamics CRM 2015. Which two technologies should you identify? Each correct answer presents part of the solution. A. Active Directory Federation Services (AD FS) 
+B. Microsoft SQL Server 
+C. Microsoft Exchange Server 
+D. Certification authority (CA) 
+E. Active Directory Domain Services (AD DS) 
+Answer: BE 
+---
+65.A user named Admin1 attempts to install Dynamics CRM 2015, but the installation fails. You need to identify the cause of the installation failure. Where can you find the installation log files? 
+A. %SystemDrive%\Users\Admin1\AppData\Roaming\Microsoft\MSCRM\Logs 
+B. %SystemDrive%\Program Files\Microsoft Dynamics CRM\Trace 
+C. %SystemDrive%\Users\Admin1\AppData\Local\ElevatedDiagnostics 
+D. %SystemDrive%\Program Files\Microsoft Dynamics CRM\Logs 
+Answer: A 
+---
+66.You have an Internet-facing deployment of Dynamics CRM 2015. Users access the web application by using a server named Server1.contoso.com. You add a new record of crm.contoso.com to DNS and you modify the bindings in Internet Information Services (IIS) Manager to use the host header of crm.contoso.com. You need to ensure that users from the Internet can access the web application by using a server name of crm.contoso.com. What should you do? 
+A. From the Deployment Properties page of Deployment Manager, modify the web address. 
+B. From Deployment Manager, run the Internet-Facing Deployment Configuration Wizard. 
+C. From Internet Information Services (IIS) Manager, restart the Dynamics CRM web site. 
+D. From Internet Information Services (IIS) Manager, recycle the worker processes of the Dynamics CRM web site. 
+Answer: A 
+---
+67.You need to configure an Internet-facing deployment of Dynamics CRM 2015. Which action should you perform after you complete the Internet-Facing Deployment Configuration Wizard? 
+A. From Deployment Manager, run the Edit Organization Wizard. 
+B. From Active Directory Federation Services (AD FS), edit the global authentication policy. C. From Deployment Manager, run the Configure Claims-Based Authentication Wizard. 
+D. From Active Directory Federation Services (AD FS), add a relying party trust. 
+Answer: D 
+---
+68.You are planning a deployment of Dynamics CRM 2015. The deployment will contain four servers. Two of the servers will have Microsoft SQL Server 2014 installed. The other two servers will each have a full deployment of Dynamics CRM 2015. You need to recommend a high availability solution that meets the following requirements: • A single server failure must not prevent users from accessing the deployment. • During normal operations, users must be able to access the deployment by connecting to either Dynamics CRM server. What should you include in the recommendation? 
+A. An active/active failover cluster and a Network Load Balancing (NLB) cluster 
+B. An active/active failover cluster and NIC Teaming 
+C. An active/passive failover cluster and a Network Load Balancing (NLB) cluster 
+D. An active/passive failover cluster and NIC Teaming 
+Answer: C 
+---
+69.You have a deployment of Dynamics CRM 2015 that contains one organization named ORG1. You need to create a disaster recovery plan for the deployment. Which two databases should you include in the disaster recovery plan? Each correct answer presents part of the solution? 
+A. msdb 
+B. mscem_config 
+C. master 
+D. org1_mscrm E. tempdb 
+Answer: AC 
+---
+70.You have a deployment of Dynamics CRM 2015 that contains multiple organizations. You need to limit the number of systems jobs that can be queued for a single organization. What should you do? 
+A. From the web application, modify the system settings. 
+B. From Deployment Manager, modify the organization settings. 
+C. From Windows PowerShell, run the Set-CRMAdvancedSettings cmdlet 
+D. From Windows PowerShell, run the Edit-CRMOrganization cmdlet. 
+Answer: C 
+---
+71.You plan to configure an Internet-facing deployment of Dynamics CRM 2015. What is the maximum number of HTTPS bindings you can configure? 
+A. 1 
+B. 4 
+C. 5 
+D. 9 
+Answer: A 
+---
+72.You have a deployment of Dynamics CRM 2015.You recently moved the configuration database to a Microsoft SQL Server cluster. You need to ensure that the Dynamics CRM 2015 deployment uses the new location for the configuration database. What should you do? 
+A. From SQL Server Management Studio, modify the security roles. 
+B. From Deployment Manager, modify the organization settings. 
+C. From the Windows Registry, modify the data source. 
+D. From Windows PowerShell, run the Edit-CRMConfiguration cmdlet. 
+Answer: B 
+---
+73.You have a deployment of Dynamics CRM 2015 that contains two organizations. One of the organizations is integrated with Microsoft SharePoint Server 2013. The deployment contains several Microsoft SQL Server Reporting Services (SSRS) reports that are scheduled to run regularly. You install the Microsoft Dynamics CRM VSS Writer server role. What are two types of content that the Microsoft Dynamics CRM VSS Writer role enables you to back up and restore? Each correct answer presents a complete solution. A. The Dynamics CRM organization databases 
+B. The SSRS databases that are used for the Microsoft Dynamics CRM Reporting Extensions 
+C. The Microsoft SharePoint Server databases that are integrated with Microsoft Dynamics CRM 
+D. The Dynamics CRM configuration database 
+E. The Internet Information Services (IIS) metabase 
+Answer: AD 
+---
+74.You need to configure the application log in Event Viewer to display only events that are related to Dynamics CRM 2015. What are two possible ways to achieve this goal? Each correct answer presents a complete solution. A. Export the log, filter the log by using Microsoft Excel, and then open the saved log in Event Viewer. 
+B. Create a filter based on the event source. 
+C. Attach a task to the log. 
+D. Sort on the Source column in Event Viewer. 
+E. Create a custom view in Event Viewer. 
+Answer: BE 
+---
+75.You have a deployment of Dynamics CRM 2015 that contains four servers. The servers are configured as shown in the following table. 
+You plan to create a single Network Load Balancing (NLB) cluster. You need to identify which servers can be added to the cluster. Which servers should you identity? 
+A. Only Server2 and Server3 
+B. Server2, Server3, and Server4 
+C. Server1, Server2, and Server3 
+D. Only Server1 and Server4 
+Answer: C 
+---
+76.You are evaluating the deployment of Dynamics CRM 2015. All users will access the deployment from the internal network only by using several different client types. You need to identify which client types require an Internet-facing deployment. Which three client types should you identify? Each correct answer presents a complete solution. 
+A. Dynamics CRM for Android 
+B. Dynamics CRM for iPad 
+C. Dynamics CRM web application 
+D. Dynamics CRM for Windows Phone 8 
+E. Microsoft Dynamics CRM for Outlook 
+Answer: A, B, D 
+---
+77.Which statement correctly describes connectivity to Dynamics CRM 2015 by using a Network Load Balancing (NLB) cluster? 
+A. All Dynamics CRM 2015 servers that are members of the cluster must have the same IP address. 
+B. All Dynamics CRM web application clients will connect to a management IP address that is in the same subnet as the Dynamics CRM 2015 servers. 
+C. All Dynamics CRM 2015 servers that are members of the cluster must have the Failover Clustering feature installed. 
+D. All Dynamics CRM web application clients will connect to a virtual IP address that redirects connections to several Dynamics CRM 2015 servers. 
+Answer: D 
+---
+78.You have a deployment of Dynamics CRM 2015 that contains the following: • A server named Server1 that has Dynamics CRM 2015 installed • A server named SQL1 that has Microsoft SQL Server 2014 installed • A client computer named Computer1 that runs Windows 8 and has Microsoft Dynamics CRM for Outlook installed You need to run the Microsoft Dynamics CRM 2015 Best Practices Analyzer. What should you do first? A. On SQL1, install the 64-bit version Microsoft Baseline Configuration Analyzer 2.0. 
+B. On Computer1, install the 64-bit version Microsoft Baseline Configuration Analyzer 2.0. 
+C. On Server1, install the 64-bit version Microsoft Baseline Configuration Analyzer 2.0. 
+D. On Computer1, install the 32-bit version Microsoft Baseline Configuration Analyzer 2.0. 
+Answer: C 
+---
+79.You are deploying Dynamics CRM 2015. You plan to use smart matching and tracking tokens. What information in email messages do tracking tokens rely on to identify items that should be tracked? 
+A. An alphanumeric string generated at the end of the subject line 
+B. An alphanumeric string generated at the beginning of the subject line 
+C. The email address of the sender and the recipient 
+D. A token that contains an alphanumeric string that is located in the email header 
+Answer: A 
+---
+80.You have a deployment of Dynamics CRM Workgroup Server 2015. You import a new organization to the deployment. Which statement accurately describes what occurs when you import the new organization? 
+A. The tables from the new organization are merged into the existing organization. 
+B. The existing organization is removed. 
+C. The existing databases are removed. 
+D. You are prompted to upgrade to Dynamics CRM Server 2015. 
+Answer: D 
+---
+81.You deploy Dynamics CRM 2015. You need to identify the maximum number of addresses that can be synchronized from a Microsoft Outlook contact to a contact record in Dynamics CRM. How many should you identify? 
+A. 1 
+B. 2 
+C. 3 
+D. 4 
+Answer: C 
+---
+82.You plan to create a new Dynamics CRM 2015 organization by using the New-CRMOrganization Windows PowerShell cmdlet. You need to identify the required PowerShell parameters for the new organization. Which three parameters should you identify? Each correct answer presents part of the solution. 
+A. -SRSUrl 
+B. -BaseCurrencyCode 
+C. -DisplayName 
+D. -SQLServerName 
+E. -BaseLanguageCode 
+Answer: ACD 
+---
+83.On which three operating systems can you install the Dynamics CRM 2015 Email Router? Each correct answer presents a complete solution. 
+A. The 32-bit version of Windows 7 
+B. The 64-bit version of Windows XP Service Pack 2 (SP2) 
+C. The 64-bit version of Windows Vista Service Pack 2 (SP2) 
+D. The 64-bit version of Windows 8 
+E. The 32-bit version of Windows Server 2008 
+Answer: A, B, D 
+---
+84.What are two reasons to create a copy of a Dynamics CRM 2015 deployment? Each correct answer presents a complete solution. A. To test the performance impact of running custom reports 
+B. To implement load-balancing for Dynamics CRM 2015 
+C. To stage updates to Dynamics CRM 2015 D. To evaluate add-on products without the risk of damaging the production system 
+Answer: CD 
+---
+85.You have a deployment of Dynamics CRM 2015. Your company signs an agreement with a hosting company that will host Dynamics CRM for your company. The hosting company implements a new deployment of Dynamics CRM for your company. You need to import one of the existing organizations to the new deployment of Dynamics CRM by using Deployment Manager. What should you do first? 
+A. From Deployment Manager, modify the existing organization. 
+B. From Microsoft SQL Server Management Studio, create a backup of the organization database. 
+C. From File Explorer, copy the .mdb files. 
+D. From the Dynamics CRM web application, export the site map. 
+Answer: A 
+---
+86.You have a server named Server1 that has a full deployment of Dynamics CRM 2015. You install Windows Server 2012 on a new server. You need to ensure that you can configure the Dynamics CRM settings on Server1 from Server2 by using Windows PowerShell. What should you install on Server2? 
+A. The Deployment Tools server role 
+B. The Developer Toolkit for Microsoft Dynamics CRM 
+C. The OrgDBOrgSettings tool 
+D. The Remote Server Administration Tools (RSAT) 
+Answer: A 
+---
+87.You are deploying Dynamics CRM 2015. Users work from either Apple computers, mobile devices, or desktop computers that run Windows 8. You need to recommend an organization-wide strategy for tracking email. The solution must minimize administrative effort. What should you recommend? 
+A. Create a workflow. 
+B. Implement Microsoft Dynamics CRM 2015 for Outlook. 
+C. Configure server-side synchronization. 
+D. Deploy the Email Router. 
+E. Implement a custom plug-in to handle all email processing. 
+Answer: C 
+---
+88.Which statement correctly describes the offline capabilities of Microsoft Dynamics CRM for Outlook? 
+A. If two users make changes to the same field in a record, both changes are retained in the record. 
+B. If the client goes offline because connectivity is lost, the client automatically goes online when connectivity is restored. 
+C. When working offline, workflows are executed locally against all cached data. 
+D. When working online, locally cached data will be updated every five minutes. 
+Answer: B 
+---
+89.You install Microsoft Dynamics CRM for Outlook on 50 client computers. You need to identify the location of offline Dynamics CRM data on the client computers. Which location should you identify? 
+A. An Outlook Personal Folder (.pst) file 
+B. A Storage Space in Windows Server 
+C. A Microsoft SQL Server Express database D. An Outlook Offline Data (.ost) file 
+Answer: D 
+---
+90.You have a deployment of Dynamics CRM 2015. Your company hires five new employees. Each employee is given a new client computer that runs Windows 8.1 and has Microsoft Outlook 2013 installed. You need to instruct the employees on how to install Microsoft Dynamics CRM for Outlook as quickly as possible. What should the employees do first? 
+A. Start the Add or remove programs applet. B. Launch the Windows Store. 
+C. Connect to the Dynamics CRM web application. 
+D. Manage the COM add-ins. 
+Answer: A
